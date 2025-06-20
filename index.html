@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jetmigo</title>
+  <link rel="stylesheet" href="Website.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo"> Jetmigo</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="page2.html">USER DASHBOARD</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Book flights, hotels, cars and activities anywhere</h1>
+    <p>Discover and book amazing travel at exclusive prices</p>
+    <button class="explore-btn">My Acount</button>
+  </section>
+
+  <section class="search-bar">
+    <form>
+      <input type="text" id="origin" placeholder="Origin" />
+      <input type="text" id = "destination" placeholder="Destination" />
+      <input type="date" id="departure-date" />
+      <input type="date" id="return-date" />
+      <input type="number" id="passengerCount" min="1" max="50" value="1" />
+      <button type="submit">Search</button>
+    </form>
+  </section>
+
+  <section class="features">
+    <div class="feature">
+      <h3>Exclusive Travel Offers</h3>
+      <p>Huge numbers of airlines & hotel choices</p>
+    </div>
+    <div class="feature">
+      <h3>Compare & book</h3>
+      <p>Compare the lowest prices and book</p>
+    </div>
+    <div class="feature">
+      <h3>Save Your Money</h3>
+      <p>Save up to 70% on flights & hotel bookings</p>
+    </div>
+  </section>
+
+  <script src="Website.js"></script>
+ 
+  <section class="flights-today" style="padding: 2rem; background-color: #fff;">
+    <h2>Today's Flights</h2>
+    <div id="flights-container" style="display: flex; flex-direction: column; gap: 1rem;"></div>
+  </section>
+</body>
+</html>

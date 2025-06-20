@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f3f7fa;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #ffffff;
+  border-bottom: 1px solid #ccc;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.hero {
+  background: url('https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1') no-repeat center center/cover;
+  padding: 4rem 2rem;
+  color: white;
+  text-align: center;
+}
+
+.cancel {
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  background-color: #1e88e5;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+.view {
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  background-color: #1e88e5;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.search-bar {
+  background-color: #0a1e35;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.search-bar form {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.search-bar input,
+.search-bar select {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+}
+
+.search-bar button {
+  background-color: #1e88e5;
+  border: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+  background-color: white;
+}
+
+.feature {
+  text-align: center;
+  max-width: 250px;
+}
